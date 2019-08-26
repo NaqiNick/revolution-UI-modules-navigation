@@ -11,6 +11,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { TrendcComponent } from './trendc/trendc.component';
 import { TrendComponent } from './trend/trend.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavigationComponent } from './navigation/navigation.component';
 
 
 
@@ -21,7 +22,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     routingComponents,
     TrendcComponent,
     TrendComponent,
-   
+    NavigationComponent,
     
   ],
   imports: [

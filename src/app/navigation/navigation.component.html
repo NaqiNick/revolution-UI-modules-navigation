@@ -1,0 +1,21 @@
+<mat-sidenav-container>
+    <mat-sidenav opened mode="side"> 
+   
+      <mat-nav-list>
+         
+        <a style="font-weight:200" mat-list-item  [routerLink]="'/screens'" >
+         <mat-icon>dashboard</mat-icon>
+          Dashboard</a>
+        <a style="font-weight:200" mat-list-item [routerLink]="'/trends'">Trends</a>
+        <a style="font-weight:200" mat-list-item [routerLink]="['page-three']">Alarms</a>
+      </mat-nav-list>
+    
+    </mat-sidenav>
+    <mat-sidenav-content>
+      
+     
+        <router-outlet></router-outlet>
+      
+  
+    </mat-sidenav-content>
+  </mat-sidenav-container>
